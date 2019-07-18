@@ -18,3 +18,6 @@ upper('Here is an example of Convert Strings to Uppercase');
 // another solution
 
 return str .toLowerCase().split(' ').map(word => word[0].toUpperCase() + word.substr(1).join('')
+                                         
+return str.replace(/\b[a-z]/gi, function(char){ return char.toUpperCase(); }); 
+//word boundary backslash \b rangeof a-z (g global i case sensitive)
