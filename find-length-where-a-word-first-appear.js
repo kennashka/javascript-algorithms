@@ -1,0 +1,2 @@
+s = "BLAHBLAHBLAHAPPLEAPPLEAPPLE"
+print(s.index("APPLE"))
