@@ -1,5 +1,5 @@
 function MaxCharacter(str){ 
-const charMap = { };
+let charMap = { };
 str.split('').forEach(function(char){  
 if(charMap[char]) { 
 charMap[char]++;
