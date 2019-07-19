@@ -1,7 +1,7 @@
 // prints the sum of numbers an array
 
 const simpleArraySum =(ar) =>{
-    return ar.reduce((total, vote) => total + vote, 0);
+    return ar.reduce((total, num ) => total + num, 0);
 
   
 }
