@@ -5,7 +5,7 @@ const fizzBuzz = () =>{
     
     
     if(i % 3 === 0) {
-      output += 'Fizz';
+      output += 'Fizz'; //produce all output with fizz
     }
 
     if(i % 5 === 0) {
