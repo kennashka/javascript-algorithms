@@ -16,3 +16,15 @@ else{
 return pal;
 }
 palindrome('racecar')
+
+/*
+ANOTHER SOLUTION
+
+var isPalindrome = function(s) {
+    s = s.replace(/[^a-z0-9]+/gi,"").toLowerCase();  // "regex = /\W/g"  even simpler!
+    return s === s.split("").reverse().join("")
+};
+
+*/
+  
+  
