@@ -1,2 +1,2 @@
 s = "BLAHBLAHBLAHAPPLEAPPLEAPPLE"
-print(s.index("APPLE"))
+print(s.indexOf("APPLE"))
